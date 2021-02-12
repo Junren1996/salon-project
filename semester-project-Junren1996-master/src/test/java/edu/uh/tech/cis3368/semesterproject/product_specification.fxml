@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="505.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uh.tech.cis3368.semesterproject.specificationController">
+   <children>
+      <Text layoutX="20.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose a job here:" wrappingWidth="99.724609375" />
+      <CheckBox fx:id="component1" layoutX="294.0" layoutY="227.0" mnemonicParsing="false" text="component" />
+      <CheckBox fx:id="component2" layoutX="294.0" layoutY="288.0" mnemonicParsing="false" text="component" />
+      <CheckBox fx:id="component3" layoutX="294.0" layoutY="349.0" mnemonicParsing="false" text="component" />
+      <CheckBox fx:id="component4" layoutX="452.0" layoutY="227.0" mnemonicParsing="false" text="component" />
+      <CheckBox fx:id="component5" layoutX="452.0" layoutY="288.0" mnemonicParsing="false" text="component" />
+      <CheckBox fx:id="component6" layoutX="452.0" layoutY="349.0" mnemonicParsing="false" text="component" />
+      <Button layoutX="525.0" layoutY="402.0" mnemonicParsing="false" onAction="#calButton" text="Calculate!" />
+      <Text layoutX="372.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Amount is: " />
+      <Button layoutX="226.0" layoutY="448.0" mnemonicParsing="false" text="Complete" />
+      <TextField fx:id="amount" layoutX="495.0" layoutY="448.0" prefHeight="25.0" prefWidth="106.0" />
+      <ComboBox fx:id="comboBox1" layoutX="382.0" layoutY="223.0" prefHeight="25.0" prefWidth="31.0" />
+      <ComboBox fx:id="comboBox2" layoutX="382.0" layoutY="284.0" prefHeight="25.0" prefWidth="31.0" />
+      <ComboBox fx:id="comboBox6" layoutX="548.0" layoutY="345.0" prefHeight="25.0" prefWidth="31.0" />
+      <ComboBox fx:id="comboBox5" layoutX="548.0" layoutY="284.0" prefHeight="25.0" prefWidth="31.0" />
+      <ComboBox fx:id="comboBox3" layoutX="382.0" layoutY="345.0" prefHeight="25.0" prefWidth="31.0" />
+      <ComboBox fx:id="comboBox4" layoutX="548.0" layoutY="223.0" prefHeight="25.0" prefWidth="31.0" />
+      <ListView layoutX="20.0" layoutY="105.0" prefHeight="266.0" prefWidth="209.0" />
+   </children>
+</AnchorPane>

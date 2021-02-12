@@ -1,0 +1,20 @@
+#+TITLE: CIS 3368 Semester Project
+
+* Junren Huang
+* 16525 Section number
+
+* Instructions
+- Fill out the placeholders above
+- Clone the project to your machine
+- Make the appropriate changes so that the application will run
+  - You do not need to add any class code, etc.
+  - There is one migration file included so that Flyway does not generate errors
+- Check in your code to git locally and then push to Github
+  - Use the following commands from the terminal
+    - git add .
+
+    - git commit -m "environment changes and README update"
+    
+    - git tag part1
+    
+    - git push origin master --follow-tags

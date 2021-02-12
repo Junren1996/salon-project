@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="496.0" prefWidth="495.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uh.tech.cis3368.semesterproject.moveProductController">
+   <children>
+      <Text layoutX="42.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avaliable Jobs:" />
+      <Button layoutX="425.0" layoutY="447.0" mnemonicParsing="false" onAction="#handleDone1" text="Done" />
+      <TableView fx:id="jobTableView" layoutX="42.0" layoutY="92.0" onDragDetected="#movetoProduct" prefHeight="389.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="col1" prefWidth="103.0" text="Job Name" />
+          <TableColumn fx:id="col2" prefWidth="96.0" text="Job Stage" />
+        </columns>
+      </TableView>
+      <Text layoutX="301.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drage to here: " />
+      <TextArea fx:id="textArea2" layoutX="301.0" layoutY="214.0" onDragDropped="#dragtoTarget2" onDragOver="#dragOver" prefHeight="106.0" prefWidth="158.0" text="Production Stage" />
+      <TextArea fx:id="textArea1" layoutX="301.0" layoutY="92.0" onDragDropped="#dragtoTarget" onDragOver="#dragOver" prefHeight="106.0" prefWidth="158.0" text="Pre-Production Stage" />
+      <TextArea fx:id="textArea3" layoutX="301.0" layoutY="332.0" onDragDropped="#dragtoTarget3" onDragOver="#dragOver" prefHeight="106.0" prefWidth="158.0" text="Close Stage" />
+   </children>
+</AnchorPane>
